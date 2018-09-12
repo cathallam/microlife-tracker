@@ -24,21 +24,17 @@ This week's application will be developed with a Test-Driven approach.
 
 Create and Read.
 
-- [Getting Started](step1.md)
-- [Adding an activity to a user - Test](step2.md)
-- [Adding an activity to a user - Code](step3.md)
-- [Getting a user's activities - Test](step4.md)
-- [Getting a user's activities - Code](step5.md)
-- [Getting a single user activity - Test](step6.md)
-- [Getting a single user activity - Code](step7.md)
-- [Getting a user's life expectancy adjustment - Test](step8.md)
-- [Getting a user's life expectancy adjustment - Code](step9.md)
-
-### Bonus
-
-The code has been provided for Updating and Deleting a user's activities. Read through it, take time to understand what each bit does, and make requests via Postman to try it out.
+- [Getting Started]
+- [Adding an activity to a user - Test]
+- [Adding an activity to a user - Code]
+- [Getting a user's activities - Test]
+- [Getting a user's activities - Code]
+- [Getting a single user activity - Test]
+- [Getting a single user activity - Code]
+- [Getting a user's life expectancy adjustment - Test]
+- [Getting a user's life expectancy adjustment - Code]
 
 Update and Delete.
 
-- [Updating an activity of a user](step10.md)
-- [Deleting an activity from a user](step11.md)
+- [Updating an activity of a user]
+- [Deleting an activity from a user]

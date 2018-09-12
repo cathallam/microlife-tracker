@@ -1,0 +1,32 @@
+{
+    "activities": [{
+      "_id": "overweight",
+      "effect": -1,
+      "label": "Each 5kg you are overweight"
+    }, {
+      "_id": "meat",
+      "effect": -1,
+      "label": "85g red meat"
+    }, {
+      "_id": "tv",
+      "effect": -1,
+      "label": "Two hours of TV"
+    }, {
+      "_id": "cigarette",
+      "effect": -0.5,
+      "label": "Smoking a cigarette"
+    }, {
+      "_id": "beer",
+      "effect": -0.5,
+      "label": "A pint of beer"
+    }, {
+      "_id": "coffee",
+      "effect": 1,
+      "label": "2-3 cups of coffee"
+    }, {
+      "_id": "walk",
+      "effect": 2,
+      "label": "22 minute walk"
+    }]
+  }
+  

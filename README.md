@@ -16,9 +16,7 @@ This therefore means that if I pop to the pub for a pint after today's class, an
 
 Disclaimer: Although there is some science behind this, the project is just intended for fun and we can't guarantee the data to be accurate (please don't sue us).
 
-We will be building a life activity tracker, which will tell us how much our life expectancy has increased or decreased based on a day's activities. The structure will be similar to that of last week's application, but this week we will just use a single JSON file to store information about the user and their activities.
-
-This week's application will be developed with a Test-Driven approach.
+We will be building a life activity tracker, which will tell us how much our life expectancy has increased or decreased based on a day's activities.The application will be developed with a Test-Driven approach.
 
 ### Steps
 

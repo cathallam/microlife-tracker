@@ -4,7 +4,7 @@
   "description": "Microlife Calculator",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --runInBand"
   },
   "repository": {
     "type": "git",

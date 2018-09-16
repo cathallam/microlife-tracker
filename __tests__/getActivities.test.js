@@ -6,7 +6,7 @@ const getActivities = require('../controllers/getActivities');
 
 // Add a new test it adds an activity to the profile and expect 2 assertions
 describe('GetActivity', () => {
-  it('Gets an activity from the user profile', (done) => {
+  it('Gets an activity from the user\'s profile', (done) => {
     expect.assertions(2);
     // Create the user object
     const user = {
@@ -66,6 +66,8 @@ describe('GetActivity', () => {
     const filePath = path.join(__dirname, '../controllers', 'user.json');
 
     fs.writeFile(filePath, JSON.stringify(user), () => {
+      // Mock request object for a GET request to /profile/activities/def456.
+      // It should also have a params key with a value of { profileActivityId: 'def456' }
       const request = httpMocks.createRequest({
         method: 'GET',
         url: '/profile/activities/def456',
@@ -83,6 +85,8 @@ describe('GetActivity', () => {
       // Add an event listener to the response, listening in for an on event.
       response.on('end', () => {
         expect(response.statusCode).toEqual(200);
+        // Expect the response data (response.getData()) to equal the object with the _id of def456
+        // (use expect.objectContaining to match the keys and values).
         expect(response._getData()).toEqual(expect.objectContaining(user.profile.activities[1]));
 
         done();
